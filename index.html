@@ -7,20 +7,38 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Fluxo de Caixa 2025</h1>
+  <h1>Fluxo de Caixa</h1>
 
-  <input type="file" id="upload-json" />
-  <button onclick="baixarJSON()">Exportar JSON</button>
+  <form id="form-lancamento">
+    <input type="date" id="vencimento" required />
+    <input type="text" id="descricao" placeholder="Descrição" required />
+    <input type="number" id="valor" step="0.01" placeholder="Valor" required />
+    <select id="tipo">
+      <option value="SAIDA">Saída</option>
+      <option value="ENTRADA">Entrada</option>
+    </select>
+    <input type="text" id="nome" placeholder="Responsável" required />
+    <select id="situacao">
+      <option value="PAGO">Pago</option>
+      <option value="PENDENTE">Pendente</option>
+    </select>
+    <button type="submit">Salvar</button>
+  </form>
 
+  <button onclick="exportarJSON()">Exportar JSON</button>
+  <input type="file" id="importar-json" />
+
+  <h2>Lançamentos</h2>
   <table>
     <thead>
       <tr>
         <th>Data</th>
         <th>Descrição</th>
-        <th>Tipo</th>
         <th>Valor</th>
+        <th>Tipo</th>
         <th>Nome</th>
         <th>Status</th>
+        <th>Ações</th>
       </tr>
     </thead>
     <tbody id="tabela-lancamentos"></tbody>
