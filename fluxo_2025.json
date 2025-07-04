@@ -1,0 +1,46 @@
+[
+  {
+    "vencimento": "2025-06-15",
+    "repete": "SIM",
+    "situacao": "PAGO",
+    "tipo": "SAIDA",
+    "status_pgto": "PAGO",
+    "data_pgto": "2025-06-16",
+    "classificacao": null,
+    "descricao": "Alamo seguro Prisma",
+    "nome": "VICTOR",
+    "valor": -176.25,
+    "saldo": -176.25
+  },
+  {
+    "vencimento": "2025-06-15",
+    "repete": "SIM",
+    "situacao": "PAGO",
+    "tipo": "SAIDA",
+    "status_pgto": "PAGO",
+    "data_pgto": "2025-06-16",
+    "classificacao": null,
+    "descricao": "Aluguel",
+    "nome": "VICTOR",
+    "valor": -1120.45,
+    "saldo": -1296.7
+  },
+  {
+    "vencimento": "2025-06-05",
+    "repete": "SIM",
+    "situacao": "PAGO",
+    "tipo": "SAIDA",
+    "status_pgto": "PAGO",
+    "data_pgto": "2025-06-05",
+    "classificacao": null,
+    "descricao": "Appai",
+    "nome": "BEATRIZ",
+    "valor": -199.0,
+    "saldo": -1495.7
+  },
+  {
+    "vencimento": "2025-06-15",
+    "repete": "NÃO",
+    "situacao": "PAGO",
+    "tipo": "SAIDA",
+    "status_pgto":_
