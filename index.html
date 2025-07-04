@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fluxo de Caixa 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Fluxo de Caixa 2025</h1>
+
+  <input type="file" id="upload-json" />
+  <button onclick="baixarJSON()">Exportar JSON</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Descrição</th>
+        <th>Tipo</th>
+        <th>Valor</th>
+        <th>Nome</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-lancamentos"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
