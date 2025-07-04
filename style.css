@@ -1,19 +1,31 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   padding: 20px;
+  background: #f8f8f8;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 8px;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 10px;
+  background: white;
 }
 
 th, td {
+  border: 1px solid #ddd;
   padding: 10px;
-  border: 1px solid #ccc;
+  text-align: left;
 }
 
-input {
-  margin-bottom: 10px;
+button {
+  cursor: pointer;
 }
